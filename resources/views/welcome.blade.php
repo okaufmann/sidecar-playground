@@ -22,8 +22,8 @@
         </script>
 
     </head>
-    <body class="antialiased font-sans text-white px-10">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+    <body class="antialiased font-sans text-white px-10 bg-gray-900">
+        <div class="relative flex items-top justify-center min-h-screen  sm:items-center py-4 sm:pt-0">
             <div class="flex flex-col space-y-5">
                 <h1 class="text-3xl">Sidecar Examples</h1>
                 <div >
