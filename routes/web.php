@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/node', function () {
+Route::get('/nodejs', function () {
     return \App\Sidecar\NodeExample::execute([
         'name' => 'John Doe',
     ]);

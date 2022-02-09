@@ -11,7 +11,7 @@ namespace dotnet
 
         public string FunctionHandler(Event eventData, ILambdaContext context)
         {
-            return $"Hello, {eventData.name}! I'm NodeJS and running in {System.Environment.GetEnvironmentVariable("AWS_EXECUTION_ENV")}";
+            return $"Hello, {eventData.name}! I'm .NET Core and running in {System.Environment.GetEnvironmentVariable("AWS_EXECUTION_ENV")}";
         }
     }
 
