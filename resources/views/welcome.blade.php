@@ -37,7 +37,10 @@
                         <li><a class="italic text-gray-300 hover:not-italic" href="{{ url('/go') }}" target="_blank">Go Example</a></li>
                         <li><a class="italic text-gray-300 hover:not-italic" href="{{ url('/dotnet') }}" target="_blank">.NET Core Example</a></li>
                     </ul>
-                    </div>
+                </div>
+                <div>
+                    Source at <a href="https://github.com/okaufmann/sidecar-playground" class="italic text-gray-300 hover:not-italic">GitHub</a>
+                </div>
             </div>
         </div>
     </body>
