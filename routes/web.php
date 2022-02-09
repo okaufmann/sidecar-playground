@@ -36,6 +36,12 @@ Route::get('/go', function () {
     ]);
 });
 
+Route::get('/dotnet', function () {
+    return \App\Sidecar\DotnetExample::execute([
+        'name' => 'John Doe',
+    ]);
+});
+
 Route::get('/{url}', function ($url) {
     $image = BrowsershotLambda::url("https://${url}")
         ->windowSize(1920, 1080)

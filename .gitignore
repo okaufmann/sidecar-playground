@@ -15,3 +15,7 @@ yarn-error.log
 /.vscode
 
 sidecar/go/example
+
+sidecar/dotnet/bin/
+
+sidecar/dotnet/obj/

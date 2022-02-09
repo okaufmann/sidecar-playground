@@ -10,6 +10,7 @@ return [
         \App\Sidecar\NodeExample::class,
         \App\Sidecar\PythonExample::class,
         \App\Sidecar\GoExample::class,
+        \App\Sidecar\DotnetExample::class,
         // \App\Sidecar\ProcessThumbnail::class,
         \Wnx\SidecarBrowsershot\Functions\BrowsershotFunction::class,
     ],
