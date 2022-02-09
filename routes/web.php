@@ -42,10 +42,10 @@ Route::get('/dotnet', function () {
     ]);
 });
 
-Route::get('/{url}', function ($url) {
-    $image = BrowsershotLambda::url("https://${url}")
-        ->windowSize(1920, 1080)
-        ->screenshot();
-
-    return response($image)->header('Content-Type', 'image/png');
-});
+// Route::get('/{url}', function ($url) {
+//     $image = BrowsershotLambda::url("https://${url}")
+//         ->windowSize(1920, 1080)
+//         ->screenshot();
+//
+//     return response($image)->header('Content-Type', 'image/png');
+// });
